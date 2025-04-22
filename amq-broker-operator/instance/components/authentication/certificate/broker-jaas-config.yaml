@@ -26,7 +26,7 @@ stringData:
       /*
        * Allow users to authenticate using certificate that matches DN from secret key users-dn.properties
        */
-      org.apache.activemq.artemis.spi.core.security.jaas.PropertiesLoginModule sufficient
+      org.apache.activemq.artemis.spi.core.security.jaas.TextFileCertificiatePropertiesLoginModule sufficient
         debug=true
         reload=true
         org.apache.activemq.jaas.textfiledn.user="users-dn.properties"
